@@ -2,9 +2,9 @@ import discord
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
-TOKEN = os.getenv('DISCORD TOKEN')
-
+load_dotenv('secureCunt.env')
+TOKEN = os.getenv("DISCORD_TOKEN")
+##TOKEN = "OTM4MTcwNTU0NDMzODI2ODQ2.YfmZag.RNoQVZU2HN4p7g2rHQ7an6o5IZ0"
 client = discord.Client()
 
 @client.event
